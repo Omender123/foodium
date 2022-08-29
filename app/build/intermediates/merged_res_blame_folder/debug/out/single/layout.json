@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android Project\\Foodium\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_details.xml",
+        "source": "D:\\Android Project\\Foodium\\app\\src\\main\\res\\layout\\activity_post_details.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\Foodium\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_post_details.xml",
+        "source": "D:\\Android Project\\Foodium\\app\\src\\main\\res\\layout\\content_post_details.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\Foodium\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_post.xml",
+        "source": "D:\\Android Project\\Foodium\\app\\src\\main\\res\\layout\\item_post.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\Foodium\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Android Project\\Foodium\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

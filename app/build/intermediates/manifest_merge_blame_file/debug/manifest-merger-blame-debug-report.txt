@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ MIT License
+4  ~
+5  ~ Copyright (c) 2020 Shreyas Patil
+6  ~
+7  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+8  ~ of this software and associated documentation files (the "Software"), to deal
+9  ~ in the Software without restriction, including without limitation the rights
+10  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+11  ~ copies of the Software, and to permit persons to whom the Software is
+12  ~ furnished to do so, subject to the following conditions:
+13  ~
+14  ~ The above copyright notice and this permission notice shall be included in all
+15  ~ copies or substantial portions of the Software.
+16  ~
+17  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+18  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+19  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+20  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+21  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+22  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+23  ~ SOFTWARE.
+24-->
+25<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+26    package="dev.shreyaspatil.foodium"
+27    android:versionCode="1"
+28    android:versionName="1.0" >
+29
+30    <uses-sdk
+31        android:minSdkVersion="21"
+31-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml
+32        android:targetSdkVersion="31" />
+32-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml
+33
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:29:5-79
+34-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:29:22-76
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:30:5-67
+35-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:30:22-64
+36
+37    <application
+37-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:32:5-59:19
+38        android:name="dev.shreyaspatil.foodium.FoodiumApp"
+38-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:33:9-35
+39        android:allowBackup="true"
+39-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:34:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8da4260c02e002466a02e30eaada9e95\core-1.3.2\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:35:9-43
+43        android:label="@string/app_name"
+43-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:36:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:37:9-54
+45        android:supportsRtl="true" >
+45-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:38:9-35
+46        <activity
+46-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:39:9-48:20
+47            android:name="dev.shreyaspatil.foodium.ui.main.MainActivity"
+47-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:40:13-49
+48            android:exported="true"
+48-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:42:13-36
+49            android:theme="@style/AppTheme.Splash" >
+49-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:41:13-51
+50            <intent-filter>
+50-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:43:13-47:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:44:17-69
+51-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:44:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:46:17-77
+53-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:46:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:49:9-58:20
+57            android:name="dev.shreyaspatil.foodium.ui.details.PostDetailsActivity"
+57-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:50:13-59
+58            android:exported="true"
+58-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:52:13-36
+59            android:theme="@style/AppTheme.NoActionBar" >
+59-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:51:13-56
+60            <intent-filter>
+60-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:53:13-57:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:44:17-69
+61-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:44:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:56:17-76
+63-->D:\Android Project\Foodium\app\src\main\AndroidManifest.xml:56:27-73
+64            </intent-filter>
+65        </activity>
+66
+67        <service
+67-->[androidx.room:room-runtime:2.2.6] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\970b31798b29cf5ef336948f61dd2297\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.2.6] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\970b31798b29cf5ef336948f61dd2297\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.2.6] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\970b31798b29cf5ef336948f61dd2297\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.2.6] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\970b31798b29cf5ef336948f61dd2297\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+71    </application>
+72
+73</manifest>
